@@ -9,12 +9,18 @@
 <body>
 
 <header class="site wrap">
-  <div class="site-name"><a href="index.html">Luc Ung</a></div>
+  <div class="site-name"><a href="index.html"><span class="luc">luc</span> <span class="ung">ung</span></a></div>
   <nav class="primary">
-    <a href="narrative.html">Narrative</a>
-    <a href="commercial.html">Commercial</a>
-    <a href="music-video.html" aria-current="page">Music Video</a>
-    <a href="info.html">Info</a>
+    <a href="narrative.html">narrative</a>
+    <a href="commercial.html">commercial</a>
+    <a href="music-video.html">music video</a>
+    <a href="info.html">info</a>
+    <svg class="yinyang" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="48" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M50,2 A48,48 0 0,1 50,98 A24,24 0 0,1 50,50 A24,24 0 0,0 50,2 Z" fill="#111"/>
+      <circle cx="50" cy="26" r="6" fill="#fff"/>
+      <circle cx="50" cy="74" r="6" fill="#111"/>
+    </svg>
   </nav>
 </header>
 
@@ -26,11 +32,32 @@
   </section>
 
   <section class="works">
-    <ul>
-      <li><a href="projects/elijah-boothe-no-fear.html" class="work-row"><span class="work-title">Elijah Boothe — 'No Fear'</span><span class="work-dir">Dir. Brittany Young</span></a></li>
-      <li><a href="projects/jaydon-ah-ah.html" class="work-row"><span class="work-title">JayDon — 'Ah! Ah!' (ft. 310babii)</span><span class="work-dir">Dir. Giles Perkins</span></a></li>
-    </ul>
-    <p class="works-label" style="margin-top:24px;">Note: this category grouping is a best guess — adjust it to match how you actually classify each project.</p>
+    <div class="work">
+      <a href="projects/elijah-boothe-no-fear.html">
+        <div class="triptych">
+          <div class="still">image</div>
+          <div class="still">image</div>
+          <div class="still">image</div>
+        </div>
+      </a>
+      <div class="work-caption">
+        <div class="work-title">Elijah Boothe - 'No Fear'</div>
+        <div class="work-dir">Dir. Brittany Young</div>
+      </div>
+    </div>
+    <div class="work">
+      <a href="projects/jaydon-ah-ah.html">
+        <div class="triptych">
+          <div class="still">image</div>
+          <div class="still">image</div>
+          <div class="still">image</div>
+        </div>
+      </a>
+      <div class="work-caption">
+        <div class="work-title">JayDon - 'Ah! Ah!' (ft. 310babii)</div>
+        <div class="work-dir">Dir. Giles Perkins</div>
+      </div>
+    </div>
   </section>
 
 </main>
